@@ -477,6 +477,18 @@ transition: 0.3s;
       margin-left: 80px;
     
     }
+    #demo ul h3{
+      font-weight: bold;
+      text-align: center;
+      color: white;
+      display: none;
+    }
+    .custom-shape img{
+      height:550px;
+       width:100%;
+      
+      
+    }
     /* #demo .logo img{
       height: 80px;
       width: 100px;
@@ -992,53 +1004,7 @@ label{
   padding: 20px;
   margin-left: 20px;
 }
-/* .work{
-  height: auto;
-  width: 100%;
-  background-color: whitesmoke;
-  margin-top: 50px;
-  
 
-}
-
-.workplan{
-  height: 400px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  
-}
-
-.work .mydiv{
-  height:250px ;
-  width: 300px;
-  background-color: skyblue;
-}
-
-.work .mydiv1{
-  height: 250px;
-  width: 900px;
-  display: flex;
-  flex-wrap: wrap;
-  border: 1px solid red;
-
-} */
-
-
-/* /* @media only screen and (max-width: 485px) {
-
-  #demo{
-    height: 150px;
-    width: 100%;
-    background-color: red;
-    margin-top: 10px;
-    display: none;
-    position: absolute;
-    
-  }
-
-} */
  @media only screen and (max-width: 480px) {
   .contain{
     position: absolute;
@@ -1283,12 +1249,7 @@ ul li{
  
 }
 
-/* #demo{
-  height: 400px;
-  width: 400px;
-  border: 1px solid red;
-  position: absolute;
-} */
+
 
 
 
@@ -1303,6 +1264,7 @@ ul li{
   font-weight: bold;
   text-align: center;
   color: white;
+  display: block;
 }
 
 #demo .logo img{
